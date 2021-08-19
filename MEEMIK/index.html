@@ -17,29 +17,42 @@
             height: 50px;
             width: 50px;
         }
+        button:disabled{
+            color: black;
+        }
     </style>
 </head>
 <body>
     <main>
-    THIS HERE WILL BE A TICTACTOE PROGRAM
-    <br>
-    <br>
-    <br>
+        <h1>TICTACTOE GAME </h1>
+        <br>
+        <br>
+        <br>
+        <form action="" id = "form1">
         <table>
             <tr>
-                <td><button></button></td>
-                <td><button></button></td>
-                <td><button></button></td>
+                <td><button id="0" onclick="turn('0')" value=""></button></td>
+                <td><button id="1" onclick="turn('1')" value=""></button></td>
+                <td><button id="2" onclick="turn('2')" value=""></button></td>
             </tr>
             <tr>
-                <td><button></button></td>
-                <td><button></button></td>
-                <td><button></button></td>
+                <td><button id="3" onclick="turn('3')" value=""></button></td>
+                <td><button id="4" onclick="turn('4')" value=""></button></td>
+                <td><button id="5" onclick="turn('5')" value=""></button></td>
             </tr>
             <tr>
-                <td><button></button></td>
-                <td><button></button></td>
-                <td><button></button></td>
+                <td><button id="6" onclick="turn('6')" value=""></button></td>
+                <td><button id="7" onclick="turn('7')" value=""></button></td>
+                <td><button id="8" onclick="turn('8')" value=""></button></td>
             </tr>
         </table>
-</main></body>
+        <br>
+        <br>
+        <input type="text" id="result" disabled/>
+        <br>
+        <br>
+        <button id="reset" onclick="reset()">Reset</button>
+        </form>
+    </main>
+    <script src="./assets/app.js"></script>
+</body>
