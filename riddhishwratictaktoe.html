@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        TIC-TAC-TOE
+    </title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="fl"><label id="ids" onclick="">TIC-TAC-TOE</label></div>
+      <table>
+        <tr>
+          <td><button type="button" name="button" id="fun1" class="" onclick="func1()"></button></td>
+          <td><button type="button" name="button" id="fun2" onclick="func2()"></button></td>
+          <td><button type="button" name="button" id="fun3" onclick="func3()"></button></td>
+        </tr>
+        <tr>
+          <td><button type="button" name="button" id="fun4" onclick="func4()"></button></td>
+          <td><button type="button" name="button" id="fun5" onclick="func5()"></button></td>
+          <td><button type="button" name="button" id="fun6" onclick="func6();"></button></td>
+        </tr>
+        <tr>
+          <td><button type="button" name="button" id="fun7" onclick="func7()"></button></td>
+          <td><button type="button" name="button" id="fun8" onclick="func8()"></button></td>
+          <td><button type="button" name="button" id="fun9" onclick="func9()"></button></td>
+        </tr>
+      </table>
+      <div class="fl"><button type="button" name="button" onclick="reset()" style="width:5rem;">RESET</button></div>
+      <div id="result" class="fl"></div>
+      <script src="./tic.js"></script>
+</body>
+</html>
