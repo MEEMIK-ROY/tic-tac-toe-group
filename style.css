@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(36, 170, 170);
+    font-family: "Cambria math", sans-serif;
+}
+
+section {
+    text-align: center;
+}
+
+.title {
+    font-size: 100px;
+    color:ivory;
+    margin: 5% auto;
+    text-shadow:8px 8px 8px #cc2e2e;
+    
+}
+
+.boxModel {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 10px auto;
+    background-color: #398d66;
+    color:rgb(110, 9, 9);
+}
+
+.box {
+    font-family: "MV boli", cursive;
+    width: 100px;
+    height: 100px;
+    box-shadow: 8px 8px 8px #0e0903;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+}
+
+.status {
+    font-size: 50px;
+    color: #810d51;
+    margin: 20px auto;
+}
+
+.restartGame {
+    background-color: blanchedalmond;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    color: #570909;
+    box-shadow: 2px 2px 2px 2px #640808;
+}
