@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <h1 class="title">Tic-Tac-Toe</h1>
+        <form action="" id="form1">
+            <div class="play_area"> 
+                <button class="turn" id="xturn">PLAYER X</button>
+                <div class="boxModel">
+                    <button data-box-index="0" class="box" id='0' onclick="turn('0')"></button>
+                    <button data-box-index="1" class="box" id='1' onclick="turn('1')"></button>
+                    <button data-box-index="2" class="box" id='2' onclick="turn('2')"></button>
+                    <button data-box-index="3" class="box" id='3' onclick="turn('3')"></button>
+                    <button data-box-index="4" class="box" id='4' onclick="turn('4')"></button>
+                    <button data-box-index="5" class="box" id='5' onclick="turn('5')"></button>
+                    <button data-box-index="6" class="box" id='6' onclick="turn('6')"></button>
+                    <button data-box-index="7" class="box" id='7' onclick="turn('7')"></button>
+                    <button data-box-index="8" class="box" id='8' onclick="turn('8')"></button>
+                </div>
+                <button class="turn" id="oturn" disabled>PLAYER O</button>
+            </div>
+            <h2 class="status">
+            <input type="text" class="result" id="result" disabled/></h2>
+            <br>
+            <br>
+            <button class="restartGame" id="reset" onclick="reset()">Restart Game</button>
+        </form>
+    </section>
+    
+    <script src="./app.js"></script>
+</body>
+</html>
